@@ -307,7 +307,7 @@ def analyze_personality_type():
         user_prompt = f"以下はユーザーの回答です：\n\n{all_responses}\n\nこの回答パターンから判断される継続力タイプとその理由、および各タイプのスコアを教えてください。"
         
         # OpenAI APIの呼び出し
-        response = openai.chat.completions.create(
+        response = openai.ChatCompletion.create(
             model="gpt-4",  # または利用可能な最新モデル
             messages=[
                 {"role": "system", "content": system_prompt},
