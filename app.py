@@ -516,8 +516,8 @@ def main():
     
     # サイドバー
     with st.sidebar:
-        st.image("https://images.unsplash.com/photo-1594824476967-48c8b964273f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80", use_container_width=True)
-        st.markdown("## AI継続力タイプ診断")
+        # 外部URLの画像を削除し、代わりにEmoji表示を使用
+        st.markdown("# 🧠 AI継続力タイプ診断")
         st.markdown("このアプリはAIを活用して、あなたの仕事への取り組み方を分析し、8つの継続力タイプから最適なタイプを診断します。")
         st.markdown("### 使い方")
         st.markdown("1. 質問に順番に回答していきます")
