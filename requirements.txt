@@ -5,4 +5,4 @@ langchain==0.0.267
 matplotlib==3.7.2
 plotly==5.16.1
 pandas==1.5.3
-pillow==9.5.0
+pillow==9.0.0
